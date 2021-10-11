@@ -1,0 +1,25 @@
+{
+  "name": "10-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shelby-M/10-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shelby-M/10-Challenge/issues"
+  },
+  "homepage": "https://github.com/Shelby-M/10-Challenge#readme",
+  "dependencies": {
+    "jest": "^27.2.5"
+  }
+}
