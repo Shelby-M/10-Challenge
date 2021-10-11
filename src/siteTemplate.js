@@ -24,7 +24,7 @@ const buildSite = (teamInfo) => {
   });
 
   const intern = teamInfo.intern.map(function (job) {
-    let internHtml = `<div class = "card" style="width: 12rem;">
+    let internHtml = `<div class = "card" style="width: 12rem; border= 20px; border-color="pink">
         <h2>${job.name}</h2>
         <h3>Intern</h3>
         <p>ID: ${job.id}</p>
@@ -42,8 +42,8 @@ module.exports = (template) => {
     <html lang="en">
     <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "./dist/style.css">
   <title> My Team </title>
   </head>
   <body>

@@ -1,10 +1,13 @@
-const { expect } = require("@jest/globals");
-const Intern = require("../lib/Intern");
+const Intern = require("../lib/intern");
 
 test("Test Intern Class", () => {
-  const Intern = new Intern("Shelby, 27, shelbyfayemo@gmail.com, UNCC");
-  expect(intern.name).toBe(expect.any(String));
-  expect(intern.id).toBe(expect.any(String));
-  expect(intern.email).toBe(expect.any(String));
-  expect(intern.school).toBe(expect.any(String));
+  const Shelby = new Intern("Shelby, 27, shelbyfayemo@gmail.com");
+  let boolean;
+  if (typeof Shelby === "object") {
+    boolean = true;
+  } else {
+    boolean = false;
+  }
+  expect(boolean).toBe(true);
+  expect(Shelby.getRole()).toBe("Intern");
 });

@@ -1,0 +1,11 @@
+body {
+  background-color: pink;
+}
+.card {
+  border-style: double;
+  border-color: rgb(185, 107, 146);
+}
+header {
+  text-align: center;
+  font-style: italic;
+}
